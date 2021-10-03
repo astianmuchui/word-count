@@ -1,6 +1,5 @@
 file = open('./doc.txt')
 words = file.read()
-print(words)
 spaces = words.find(' ')
 if spaces != -1:
     number_spaces = words.count(' ')
